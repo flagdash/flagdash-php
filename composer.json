@@ -1,0 +1,11 @@
+{
+  "name": "flagdash/sdk",
+  "description": "Official server-side FlagDash SDK for PHP",
+  "type": "library",
+  "license": "MIT",
+  "require": { "php": "^8.1" },
+  "autoload": { "psr-4": { "FlagDash\\": "src/" } },
+  "autoload-dev": { "psr-4": { "FlagDash\\Tests\\": "tests/" } },
+  "support": { "source": "https://github.com/flagdash/flagdash-php" },
+  "scripts": { "test": "php tests/ClientTest.php" }
+}
